@@ -1,0 +1,70 @@
+.app-sidebar {
+  background-color: #1e1e2d;
+  color: #fff;
+}
+
+.gnb {
+
+  .q-item__label,
+  .q-icon {
+    color: #999;
+  }
+
+  .q-expansion-item--expanded {
+
+    .q-item__label,
+    .q-icon {
+      color: #fff;
+    }
+  }
+
+  .submenu {
+    background: #333348;
+
+    .q-card__section {
+      padding: 0;
+
+      .q-item {
+        padding: 10px 20px;
+        color: #999;
+      }
+    }
+
+    .q-item.q-router-link--active,
+    .q-item--active {
+      color: #fff;
+    }
+  }
+}
+
+
+.q-toolbar {
+  height: 70px;
+  background-color: #fff;
+  color: #000;
+}
+
+.q-page {
+  background-color: #f5f8fa;
+}
+
+.app-header {
+  left: 300px;
+}
+
+.app-layout {
+  .q-drawer--left {
+    top: 0 !important;
+  }
+}
+
+.logo-area {
+  height: 70px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
